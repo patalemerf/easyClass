@@ -19,19 +19,13 @@ Bem-vindo ao **EasyClass**! Este é um projeto simples criado para facilitar o a
 
 1. Clone o repositório:
 
-```bash
-git clone https://github.com/seu-usuario/easyclass.git
-cd easyclass
-Instale as dependências:
+``` git clone https://github.com/seu-usuario/easyclass.git ```
+``` cd easyclass```
 
-bash
-Copiar
-Editar
-npm install
-Rode o projeto:
+2. Instale as dependências:
 
-bash
-Copiar
-Editar
-npm run dev
+``` npm install```
+3. Rode o projeto:
+
+```npm run dev```
 O app ficará disponível em http://localhost:5173
