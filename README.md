@@ -25,7 +25,9 @@ Bem-vindo ao **EasyClass**! Este é um projeto simples criado para facilitar o a
 2. Instale as dependências:
 
 ``` npm install```
+
 3. Rode o projeto:
 
 ```npm run dev```
+
 O app ficará disponível em http://localhost:5173
