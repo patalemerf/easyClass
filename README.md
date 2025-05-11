@@ -1,24 +1,36 @@
-# 📚 EasyClass - Agendamento de Aulas de Inglês
+# EasyClass 🎓
 
-Bem-vindo ao **EasyClass**! Este é um projeto simples criado para facilitar o agendamento de aulas de inglês de forma prática e intuitiva.
+Aplicação simples de agendamento de aulas feita com React + Firebase.
 
-## ✨ Funcionalidades
+## 🚀 Link do Deploy
 
-- Agendamento de aulas com nome do aluno e data/hora.
-- Visualização de agendamentos.
-- Página separada para o professor acompanhar os horários.
+👉 [Acesse o EasyClass aqui](https://easy-class-7e3w.vercel.app/)
 
-## 💻 Tecnologias Utilizadas
+## 💡 Funcionalidades
 
-- [React](https://reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [React Router DOM](https://reactrouter.com/)
-- [Tailwind CSS](https://tailwindcss.com/) para estilização
+- Agendamento de aulas com nome e horário
+- Área do professor com visualização dos agendamentos
+- Integração com Firebase Firestore
 
-## 🚀 Como Rodar o Projeto Localmente
+## 🛠️ Tecnologias
+
+- React
+- TypeScript
+- TailwindCSS
+- Firebase (Firestore)
+
+## 🔧 Como rodar localmente
 
 1. Clone o repositório:
+`git clone https://github.com/seu-usuario/easyclass.git `
 
-```bash
-git clone https://github.com/seu-usuario/easyclass.git
-cd easyclass
+2. Instale as dependências:
+`npm install` 
+
+3. Crie um arquivo .env com as variáveis do Firebase (exemplo abaixo):
+` VITE_API_KEY=...`
+`VITE_AUTH_DOMAIN=...`
+`... `
+
+4. Rode o app:
+`npm run dev`
