@@ -1,6 +1,19 @@
 {
     "rewrites": [
       { "source": "/(.*)", "destination": "/" }
-    ]
-  }
+    ],
+      "builds": [
+        {
+          "src": "easyclass/package.json",
+          "use": "@vercel/node"
+        }
+      ],
+      "routes": [
+        {
+          "src": "/(.*)",
+          "dest": "easyclass/$1"
+        }
+      ]
+    }
+    
   
